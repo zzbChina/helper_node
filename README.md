@@ -1,0 +1,5 @@
+# helper_node
+启动程序需要先安转node.js，
+在项目目录下使用npm init来安转所需的依赖项
+最后使用指令node app.js来执行程序
+需要数据库数据的情况下需要使用mysql数据库，用户名为root，密码为root，数据库名为helper，如果需要自定义数据库配置，则需要在connectDB文件夹下的index文件里对config进行修改
